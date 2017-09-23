@@ -17,16 +17,6 @@
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="61dp">
 
-        <android.support.constraint.ConstraintLayout
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp"
-            android:layout_width="70dp"
-            android:layout_height="587dp"
-            android:layout_gravity="center"
-            android:visibility="gone">
-
-        </android.support.constraint.ConstraintLayout>
-
         <Space
             android:layout_width="match_parent"
             android:layout_height="50dp" />

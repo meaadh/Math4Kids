@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#1E90FF"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="364dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="60dp">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:text="Please type in the password provided by your parents " />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:textColor="#F8F8FF"
+            android:hint="Password"
+            android:inputType="numberPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:background="#b3ffe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
