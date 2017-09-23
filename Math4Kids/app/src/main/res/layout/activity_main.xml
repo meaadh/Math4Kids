@@ -5,34 +5,71 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0FFF0"
+    android:gravity="center"
     tools:context="com.example.socce.math4kids.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="143dp"
-        android:layout_height="61dp"
-        android:textSize="30"
-        android:textAlignment="center"
-        android:text="Sign Up"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="271dp" />
+    <LinearLayout
+        android:layout_width="239dp"
+        android:layout_height="382dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="61dp">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Parent Login"
-        android:textSize="30"
-        tools:layout_editor_absoluteY="69dp"
-        tools:layout_editor_absoluteX="89dp" />
+        <android.support.constraint.ConstraintLayout
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:layout_width="70dp"
+            android:layout_height="587dp"
+            android:layout_gravity="center"
+            android:visibility="gone">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Student Login"
-        android:textSize="30"
-        tools:layout_editor_absoluteY="176dp"
-        tools:layout_editor_absoluteX="80dp" />
+        </android.support.constraint.ConstraintLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b3ffe2"
+            android:text="Parent Login"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b3ffe2"
+            android:text="Student Login"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#b3ffe2"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

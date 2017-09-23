@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F0FFF0"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="377dp"
+        android:layout_height="599dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="20dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#b3ffe2"
+            android:text="Login"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="180dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
